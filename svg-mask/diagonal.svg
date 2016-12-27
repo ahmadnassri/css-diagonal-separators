@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+  <defs>
+    <style>
+      g {
+        display: none;
+      }
+      g:target {
+        display: inline;
+      }
+    </style>
+  </defs>
+
+  <g id="top">
+    <polygon fill="black" points="0 100 0 0 100 0"/>
+  </g>
+
+  <g id="bottom">
+    <polygon fill="black" points="100 0 100 100 0 100"/>
+  </g>
+
+  <g id="top-reverse">
+    <polygon fill="black" points="0 0 100 0 100 100"/>
+  </g>
+
+  <g id="bottom-reverse">
+    <polygon fill="black" points="0 0 0 100 100 100"/>
+  </g>
+</svg>

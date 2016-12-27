@@ -1,0 +1,22 @@
+:root {
+  --width: 300px;
+  --height: 100px;
+  --top-color: #f44336;
+  --bottom-color: #2196F3;
+}
+
+.separator {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: var(--height) var(--width) 0 0;
+  border-color: var(--top-color) var(--bottom-color) transparent transparent;
+}
+
+.separator.reverse {
+  transform: rotateY(180deg);
+}
+
+.vertical .separator.reverse {
+  transform: rotateX(180deg);
+}

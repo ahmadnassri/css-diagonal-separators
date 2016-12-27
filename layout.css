@@ -1,0 +1,94 @@
+body {
+  background-color: #607D8B;
+}
+
+h1, h2 {
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.demo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section {
+  margin: 20px;
+  border: 10px solid #9E9E9E;
+  border-radius: 10px;
+}
+
+section:not(.vertical) {
+  width: var(--width);
+}
+
+section header,
+section footer {
+  height: var(--height);
+}
+
+section.vertical {
+  position: relative;
+  display: flex;
+  height: var(--height);
+  width: calc(var(--width) * 3);
+}
+
+section.vertical header,
+section.vertical footer {
+  height: 100%;
+  width: var(--width);
+}
+
+section header {
+  background: var(--top-color);
+}
+
+section footer {
+  background: var(--bottom-color);
+}
+
+.image.above section header,
+.image.below section footer {
+  height: calc(var(--height) * 2);
+  background-image: url(https://unsplash.it/500/500?image=1030);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.image.above section.vertical header,
+.image.below section.vertical footer {
+  height: 100%;
+  width: calc(var(--width) * 2);
+  background-position: bottom right;
+}
+
+.image section {
+  position: relative;
+}
+
+.image .separator {
+  position: absolute;
+}
+
+.image.above .separator {
+  --top-color: transparent;
+  margin-top: calc(var(--height) * -1);
+}
+
+.image.below .separator {
+  --bottom-color: transparent;
+}
+
+.image .vertical .separator {
+  margin-top: 0;
+  margin-left: var(--width);
+}
+
+.vertical {
+  --height: 300px;
+  --width: 100px;
+}

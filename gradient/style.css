@@ -1,0 +1,20 @@
+:root {
+  --width: 300px;
+  --height: 100px;
+  --top-color: #f44336;
+  --bottom-color: #2196F3;
+}
+
+.separator {
+  width: var(--width);
+  height: var(--height);
+  background-image: linear-gradient(to bottom right, var(--top-color), var(--top-color) 50%, var(--bottom-color) 50%, var(--bottom-color));
+}
+
+.separator.reverse {
+  transform: rotateY(180deg);
+}
+
+.vertical .separator.reverse {
+  transform: rotateX(180deg);
+}
