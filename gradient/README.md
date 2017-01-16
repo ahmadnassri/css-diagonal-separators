@@ -33,18 +33,13 @@
 }
 ```
 
+**Notes:**
+
+- 👍 The angle is controlled by the element height value
 - 👎 Jagged / blurry edges on some rendering engines
   - tweak the percentage a little to get a better rounding algorithm.
 - 👎 Further control is limited
-  - example: creating a shadow effect using `box-shadow`
-- 👍 The angle is controlled by the element height value
-- 👋 The example above uses [CSS Variables][css-vars] for demonstration purposes, adjust for your own use
-  - _css variables are [not fully supported yet][css-vars-compat]._
-- 👋 `reversed` & `vertical` variants listed above are verbose for demonstration purposes
-  - for simple multi directional classes, use the [`rotate()`][css-transform-rotate] function as needed
-  - _see [`style.css`](style.css) for an example_
-- 👌 Use with `transparent` colors _(e.g. to overlay an image, or content)_ will require `absolute` or manual positioning:
-  - _see [`layout.css`](../layout.css) for an example_
+  - _e.g._ creating a shadow effect using `box-shadow`
 
 ## ✔ Generated Content
 
@@ -79,7 +74,4 @@ section::after {
 View [Demo][demo], Play on [CodePen][pen], or inspect the [source files](index.html).
 
 [demo]: https://raw.githack.com/ahmadnassri/css-diagonal-separators/master/gradients/index.html
-[css-vars]: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables
-[css-vars-compat]: http://caniuse.com/#search=variables
-[css-transform-rotate]: https://www.w3.org/TR/css-transforms-1/#funcdef-rotate
 [pen]: http://codepen.io/ahmadnassri/pen/aBrPKb
