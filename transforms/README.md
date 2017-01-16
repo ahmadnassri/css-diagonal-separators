@@ -102,7 +102,7 @@
 
 ## Demo
 
-View [Demo][demo], Play on [CodePen][pen], or inspect the [source files](index.html).
+View [Demo][demo], Play on [CodePen][pen], or inspect the [source files](style.css).
 
 [demo]: https://raw.githack.com/ahmadnassri/css-diagonal-separators/master/transforms/index.html
 [pen]: http://codepen.io/ahmadnassri/pen/pNmqZQ
