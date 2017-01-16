@@ -1,7 +1,7 @@
 body {
-  background-color: #607D8B;
   color: white;
   font-family: "Lucida Console", Monaco, monospace;
+  background: linear-gradient(to left, #606c88 , #3f4c6b);
 }
 
 a, a:visited {
