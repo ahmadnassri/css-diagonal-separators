@@ -86,7 +86,7 @@ section::after {
 
 ## Demo
 
-View [Demo][demo], Play on [CodePen][pen], or inspect the [source files](index.html).
+View [Demo][demo], Play on [CodePen][pen], or inspect the [source files](style.css).
 
 [demo]: https://raw.githack.com/ahmadnassri/css-diagonal-separators/master/borders/index.html
 [pen]: http://codepen.io/ahmadnassri/pen/eBabKo
