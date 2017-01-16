@@ -101,9 +101,9 @@
 
 > Supported in all major browsers, with the exception of `Opera Mini`.
 
-## ❓ Performance
+## ✖ Performance
 
-> **TODO**
+![](performance.png)
 
 ## Demo
 

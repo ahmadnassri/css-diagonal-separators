@@ -79,9 +79,9 @@
   - consult the [browser support matrix](http://caniuse.com/#feat=svg-fragment) before using.
   - alternatively, you can just use one triangle svg and manualy control the position of the transparent separator
 
-## ❓ Performance
+## ✖ Performance
 
-> **TODO**
+![](performance.png)
 
 ## Demo
 

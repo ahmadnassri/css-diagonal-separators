@@ -9,7 +9,7 @@
 - ✔ Simple CSS
 - ✔ Generated Content
 - ✔ Cross Browser Support
-- ❓ Performance
+- ✖ Performance
 
 ### [CSS Shapes](shapes)
 
@@ -20,7 +20,7 @@
 - ✖ Simple CSS
 - ✖ Generated Content
 - ✖ Cross Browser Support
-- ❓ Performance
+- ✖ Performance
 
 ### [Gradient Background Image](gradient)
 
@@ -31,7 +31,7 @@
 - ✔ Simple CSS
 - ✔ Generated Content
 - ✖ Cross Browser Support
-- ❓ Performance
+- ✔ Performance
 
 ### [SVG Background Image](svg)
 
@@ -42,7 +42,7 @@
 - ❓ Simple CSS
 - ✔ Generated Content
 - ✔ Cross Browser Support
-- ❓ Performance
+- ✔ Performance
 
 ### [SVG Mask](svg-mask)
 
@@ -53,7 +53,7 @@
 - ✖ Simple CSS
 - ✖ Generated Content
 - ✖ Cross Browser Support
-- ❓ Performance
+- ✖ Performance
 
 ### [CSS3 2D Transforms](transforms)
 
@@ -64,4 +64,4 @@
 - ✖ Simple CSS
 - ✖ Generated Content
 - ✖ Cross Browser Support
-- ❓ Performance
+- ✖ Performance

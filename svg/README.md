@@ -86,9 +86,9 @@ section::after {
 
 [Supported on all browsers](http://caniuse.com/#feat=svg-css)
 
-## ❓ Performance
+## ✔ Performance
 
-> **TODO**
+![](performance.png)
 
 ## Demo
 

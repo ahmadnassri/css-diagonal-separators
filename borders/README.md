@@ -85,9 +85,9 @@ section::after {
 
 [Supported on all browsers](http://caniuse.com/#search=border-color)
 
-## ❓ Performance
+## ✖ Performance
 
-> **TODO**
+![](performance.png)
 
 ## Demo
 

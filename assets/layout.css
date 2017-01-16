@@ -1,12 +1,17 @@
 body {
   background-color: #607D8B;
+  color: white;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
-h1, h2 {
-  color: white;
+a, a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
   text-align: center;
   font-weight: 400;
-  font-family: "Lucida Console", Monaco, monospace;
 }
 
 .demo {
@@ -54,7 +59,7 @@ section footer {
 .image.above section header,
 .image.below section footer {
   height: calc(var(--height) * 2);
-  background-image: url(https://unsplash.it/500/500?image=1030);
+  background-image: url(image.jpg);
   background-size: cover;
   background-position: bottom;
 }

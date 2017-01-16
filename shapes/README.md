@@ -79,7 +79,7 @@
 
 [Partial support](http://caniuse.com/#feat=css-clip-path)
 
-## ❓ Performance
+## ✖ Performance
 
 > **TODO**
 
