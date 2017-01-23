@@ -8,8 +8,8 @@
   --height: 100px;
   --top-color: #f44336;
   --bottom-color: #2196F3;
-  --vertical-angel: 108.5deg;
-  --horizontal-angel: 18.5deg;
+  --vertical-angle: 108.5deg;
+  --horizontal-angle: 18.5deg;
 }
 
 .separator {
@@ -24,7 +24,7 @@
   width: 100%;
   height: 100%;
   background-color: var(--top-color);
-  transform: skewY(calc(-1 * var(--horizontal-angel)));
+  transform: skewY(calc(-1 * var(--horizontal-angle)));
   transform-origin: bottom left;
 }
 
@@ -34,7 +34,7 @@
   width: 100%;
   height: 100%;
   background-color: var(--bottom-color);
-  transform: skewY(calc(-1 * var(--horizontal-angel)));
+  transform: skewY(calc(-1 * var(--horizontal-angle)));
   transform-origin: bottom left;
 }
 ```
@@ -44,7 +44,7 @@
 ```css
 .separator.reverse::before,
 .separator.reverse::after {
-  transform: skewY(var(--horizontal-angel));
+  transform: skewY(var(--horizontal-angle));
   transform-origin: bottom right;
 }
 ```
@@ -54,7 +54,7 @@
 ```css
 .separator.vertical::before,
 .separator.vertical::after {
-  transform: skewY(var(--vertical-angel));
+  transform: skewY(var(--vertical-angle));
 }
 ```
 
@@ -67,13 +67,13 @@
 
 .separator.vertical.reverse::before {
   position: absolute;
-  transform: skewY(calc(-1 * var(--vertical-angel)));
+  transform: skewY(calc(-1 * var(--vertical-angle)));
   transform-origin: bottom left;
 }
 
 .separator.vertical.reverse::after {
   position: absolute;
-  transform: skewY(calc(-1 * var(--vertical-angel)));
+  transform: skewY(calc(-1 * var(--vertical-angle)));
   transform-origin: top right;
 }
 ```
